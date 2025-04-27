@@ -11,13 +11,5 @@
       "src": "/(.*)",
       "dest": "dist/src/index.js"
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "scripts": {
-      "build": "npm run vercel-build"
-    }
-  }
+  ]
 }
