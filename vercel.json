@@ -1,4 +1,23 @@
 {
   "version": 2,
-  "rewrites": [{ "source": "/(.*)", "destination": "/src" }]
+  "builds": [
+    {
+      "src": "dist/src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/src/index.js"
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "scripts": {
+      "build": "npm run vercel-build"
+    }
+  }
 }
