@@ -35,6 +35,7 @@ export const createProduct = async (
         price,
         rating,
         stockQuantity,
+        categoryId: "a52bf1bd-3d35-4cd2-849b-354e3952e2d2", // To be modified
       },
     });
     res.status(201).json(product);

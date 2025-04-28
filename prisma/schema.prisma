@@ -13,20 +13,42 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Role {
+  SUPER_ADMIN
+  INVENTORY_MANAGER
+  PURCHASER
+  SALES
+  WAREHOUSE_STAFF
+  ANALYST
+  GUEST
+}
+
 model Users {
-  userId String @id
-  name   String
-  email  String
+  userId   String  @id
+  name     String
+  email    String
+  password String?
+  photo    String?
+  role     Role    @default(GUEST)
 }
 
 model Products {
-  productId     String      @id
+  productId     String      @id @default(uuid()) // Auto-generate ID
   name          String
   price         Float
   rating        Float?
-  stockQuantity Int
+  stockQuantity Int         @default(0)
+  photo         String?
+  categoryId    String
   Sales         Sales[]
   Purchases     Purchases[]
+  category      Categories  @relation(fields: [categoryId], references: [categoryId])
+}
+
+model Categories {
+  categoryId String     @id @default(uuid())
+  name       String     @unique // Ensure unique category names
+  Products   Products[]
 }
 
 model Sales {
