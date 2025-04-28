@@ -26,7 +26,8 @@ export const createProduct = async (
   res: Response
 ): Promise<void> => {
   try {
-    const { productId, name, price, rating, stockQuantity } = req.body;
+    const { productId, name, price, rating, stockQuantity, categoryId } =
+      req.body;
     const product = await prisma.products.create({
       data: {
         productId,
@@ -34,12 +35,12 @@ export const createProduct = async (
         price,
         rating,
         stockQuantity,
-        categoryId: "a52bf1bd-3d35-4cd2-849b-354e3952e2d2", // To be modified
+        categoryId,
       },
     });
     res.status(201).json(product);
   } catch (error) {
-    res.status(500).json({ message: "Error creating product" });
+    res.status(500).json({ message: "Error creating item" });
   }
 };
 

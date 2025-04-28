@@ -61,3 +61,25 @@ export const hashPassword = async (password: string): Promise<string> => {
   const hashedPassword = await bcrypt.hash(password, salt);
   return hashedPassword;
 };
+
+export const createUser = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const { userId, name, email, photo, role } = req.body;
+    const user = await prisma.users.create({
+      data: {
+        userId,
+        name,
+        email,
+        role,
+        ...(photo && { photo }),
+        password: await hashPassword("12345"),
+      },
+    });
+    res.status(201).json(user);
+  } catch (error) {
+    res.status(500).json({ message: "Error creating user" });
+  }
+};
