@@ -30,80 +30,33 @@ model Users {
   password String?
   photo    String?
   role     Role    @default(GUEST)
+
+  createdAt DateTime @default(now()) // Auto-set on creation
+  updatedAt DateTime @updatedAt // Auto-updates on changes
 }
 
 model Products {
-  productId     String      @id @default(uuid()) // Auto-generate ID
+  productId     String     @id @default(uuid()) // Auto-generate ID
   name          String
   price         Float
   rating        Float?
-  stockQuantity Int         @default(0)
+  stockQuantity Int        @default(0)
   photo         String?
   categoryId    String
-  Sales         Sales[]
-  Purchases     Purchases[]
-  category      Categories  @relation(fields: [categoryId], references: [categoryId])
+  location      String?
+  sku           String?
+  supplier      String?
+  category      Categories @relation(fields: [categoryId], references: [categoryId])
+
+  createdAt DateTime @default(now()) // Auto-set on creation
+  updatedAt DateTime @updatedAt // Auto-updates on changes
 }
 
 model Categories {
   categoryId String     @id @default(uuid())
   name       String     @unique // Ensure unique category names
   Products   Products[]
-}
 
-model Sales {
-  saleId      String   @id
-  productId   String
-  timestamp   DateTime
-  quantity    Int
-  unitPrice   Float
-  totalAmount Float
-  product     Products @relation(fields: [productId], references: [productId])
-}
-
-model Purchases {
-  purchaseId String   @id
-  productId  String
-  timestamp  DateTime
-  quantity   Int
-  unitCost   Float
-  totalCost  Float
-  product    Products @relation(fields: [productId], references: [productId])
-}
-
-model Expenses {
-  expenseId String   @id
-  category  String
-  amount    Float
-  timestamp DateTime
-}
-
-model SalesSummary {
-  salesSummaryId   String   @id
-  totalValue       Float
-  changePercentage Float?
-  date             DateTime
-}
-
-model PurchaseSummary {
-  purchaseSummaryId String   @id
-  totalPurchased    Float
-  changePercentage  Float?
-  date              DateTime
-}
-
-model ExpenseSummary {
-  expenseSummaryId  String              @id
-  totalExpenses     Float
-  date              DateTime
-  ExpenseByCategory ExpenseByCategory[]
-}
-
-model ExpenseByCategory {
-  expenseByCategoryId String         @id
-  expenseSummaryId    String
-  category            String
-  amount              BigInt
-  date                DateTime
-  expenseSummary      ExpenseSummary @relation(fields: [expenseSummaryId], references: [expenseSummaryId])
+  createdAt DateTime @default(now()) // Auto-set on creation
+  updatedAt DateTime @updatedAt // Auto-updates on changes
 }
