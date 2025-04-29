@@ -23,10 +23,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createUser = exports.hashPassword = exports.signinUser = exports.getUsers = void 0;
+exports.deleteUser = exports.createUser = exports.hashPassword = exports.signinUser = exports.getUsers = void 0;
 const client_1 = require("@prisma/client");
 const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
+const path_1 = __importDefault(require("path"));
+const fs_1 = __importDefault(require("fs"));
 const prisma = new client_1.PrismaClient();
 const getUsers = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -90,3 +92,40 @@ const createUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
     }
 });
 exports.createUser = createUser;
+const deleteUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { id } = req.params;
+        // Check if product exists
+        const existingUser = yield prisma.users.findUnique({
+            where: { userId: id },
+        });
+        if (!existingUser) {
+            res.status(404).json({ message: "User not found" });
+            return;
+        }
+        // Delete photo if exists
+        if (existingUser.photo) {
+            const photoPath = path_1.default.join(__dirname, "..", existingUser.photo);
+            if (fs_1.default.existsSync(photoPath)) {
+                fs_1.default.unlinkSync(photoPath);
+            }
+        }
+        // Delete product from database
+        yield prisma.users.delete({
+            where: { userId: id },
+        });
+        res.json({ message: "User deleted successfully" });
+    }
+    catch (error) {
+        console.error("Error deleting user:", error);
+        // Special handling for foreign key constraints
+        if ((error === null || error === void 0 ? void 0 : error.code) === "P2003") {
+            res.status(400).json({
+                message: "Cannot delete user",
+            });
+            return;
+        }
+        res.status(500).json({ message: "Error deleting user" });
+    }
+});
+exports.deleteUser = deleteUser;
