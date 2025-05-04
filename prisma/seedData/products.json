@@ -4,279 +4,317 @@
     "name": "Pinkscale Blazing Star",
     "price": 1200,
     "rating": 2.25,
-    "stockQuantity": 124834,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 120,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
     "name": "Gila Milkvetch",
     "price": 1500,
     "rating": 3.56,
-    "stockQuantity": 799402,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 200,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
     "name": "Rocky Mountain Zinnia",
     "price": 2000,
     "rating": 3.23,
-    "stockQuantity": 842192,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 6,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
     "name": "Guadalupe Suncup",
     "price": 3500,
     "rating": 4.09,
-    "stockQuantity": 236333,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 8,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
     "name": "Saline Phlox",
     "price": 1850,
     "rating": 4.8,
-    "stockQuantity": 601208,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 4,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
     "name": "Common Brighteyes",
     "price": 5000,
     "rating": 0.27,
-    "stockQuantity": 124068,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 150,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
     "name": "Vermejo Phlox",
     "price": 20000,
     "rating": 2.46,
-    "stockQuantity": 234525,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 600,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "98255f4e-40a6-470f-89a5-0792729f8947",
     "name": "Purple Marshlocks",
     "price": 500,
     "rating": 4.82,
-    "stockQuantity": 739009,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 45,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
     "name": "Hamatocaulis Moss",
     "price": 650,
     "rating": 1.17,
-    "stockQuantity": 754285,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 99,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
     "name": "Wax Myrtle",
     "price": 10000,
     "rating": 4.6,
-    "stockQuantity": 205240,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 80,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "be2157fb-7454-405e-9511-bf7ba81b7726",
     "name": "Thladiantha",
     "price": 18000,
     "rating": 1.65,
-    "stockQuantity": 399124,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 60,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "fdf1ba3d-fa06-4ce5-90ff-d081c5d37176",
     "name": "Common Tarweed",
     "price": 22350,
     "rating": 2.39,
-    "stockQuantity": 196884,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 55,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "afded6df-058f-477d-9878-e0e0b1d3dff3",
     "name": "Smooth Phlox",
     "price": 4000,
     "rating": 4.38,
-    "stockQuantity": 673658,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 94,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "daa29167-82a7-474b-9687-b8b903e7ec69",
     "name": "Lemmon's Beggarticks",
     "price": 13100,
     "rating": 1.07,
-    "stockQuantity": 205143,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 13,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "ccb83982-71f3-4497-bad8-7e64c6920dc6",
     "name": "Globe Fimbry",
     "price": 60000,
     "rating": 2.62,
-    "stockQuantity": 388596,
-    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 15,
+    "categoryId": "a52bf1bd-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "237 Clothes"
   },
   {
     "productId": "1936d406-e89e-40e4-bff7-1827532269d4",
     "name": "Columbia Milkvetch",
     "price": 90000,
     "rating": 2.21,
-    "stockQuantity": 631658,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 20,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "c849a535-5f8b-47e3-889c-015693a644ac",
     "name": "Girdlepod",
     "price": 100000,
     "rating": 1.49,
-    "stockQuantity": 65457,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 30,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "0c3e80ee-59b3-4fc4-b760-8b07acc2d3ae",
     "name": "Lindley's Clerodendrum",
     "price": 120000,
     "rating": 1.53,
-    "stockQuantity": 263383,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 1000,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "d8f5bee3-f3eb-4071-a124-6b857e0fd798",
     "name": "Arizonia Dry Rock Moss",
     "price": 6900,
     "rating": 4.71,
-    "stockQuantity": 616812,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 21,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "8d15de86-0e4a-4414-9166-7a33610202d3",
     "name": "Clamshell Orchid",
     "price": 21000,
     "rating": 0.79,
-    "stockQuantity": 604774,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 900,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "ea8fd0b9-c2d9-4d43-9c23-44cb99d079bb",
     "name": "Fourleaf Mare's-tail",
     "price": 1100,
     "rating": 3.71,
-    "stockQuantity": 909107,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 550,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "25d01c80-bca1-4a00-b1d0-0fbd39ff9e89",
     "name": "Simpson's Rosinweed",
     "price": 98768,
     "rating": 1.98,
-    "stockQuantity": 953695,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 700,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "1d6df6e3-b7ea-4507-9d66-87c6ee8ed5b9",
     "name": "Lobelia",
     "price": 76000,
     "rating": 0.81,
-    "stockQuantity": 341530,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 96,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "000a8c23-5bca-436c-a216-4e747a94c511",
     "name": "Yew Plum Pine",
     "price": 52000,
     "rating": 1.6,
-    "stockQuantity": 967173,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 40,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "c5b600dc-6bfb-492a-b335-c3cc8c707959",
     "name": "Thimbleberry",
     "price": 79812,
     "rating": 0.13,
-    "stockQuantity": 162208,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 1,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics",
+    "location": "Yaounde"
   },
   {
     "productId": "9d5fafbc-312b-47e8-ada1-283918f0c3b5",
     "name": "Yellowturbans",
     "price": 92000,
     "rating": 4.74,
-    "stockQuantity": 33021,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 0,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics"
   },
   {
     "productId": "0114d5d4-ae48-46fa-b0ca-afe60eb88add",
     "name": "Field Brome",
     "price": 76400,
     "rating": 0.13,
-    "stockQuantity": 363992,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 0,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics",
+    "location": "Bamenda"
   },
   {
     "productId": "e5b0da8c-148d-4680-b262-8609fb8a10da",
     "name": "Pentas",
     "price": 17000,
     "rating": 1.5,
-    "stockQuantity": 635092,
-    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 3,
+    "categoryId": "a52bf1bd-3e35-4cd2-849b-354e3952e2d2",
+    "supplier": "Skyline Cosmetics",
+    "location": "Douala"
   },
   {
     "productId": "2be5b024-2c96-4f29-912c-c6f36353f799",
     "name": "Strigose Beard Lichen",
     "price": 2150,
     "rating": 1.06,
-    "stockQuantity": 35383,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 23,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "fcf2e432-62a3-4b6f-a34d-36e42a12272e",
     "name": "Mad River Fleabane",
     "price": 19000,
     "rating": 1.34,
-    "stockQuantity": 880242,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 10,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "fc4c81e5-f1ac-40f5-8c6f-da3fbad5599d",
     "name": "Chickenthief",
     "price": 24000,
     "rating": 0.49,
-    "stockQuantity": 896782,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 11,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "07238d8e-0037-4972-87ca-0df206ee3e42",
     "name": "Palmleaf Poppymallow",
     "price": 27000,
     "rating": 3.42,
-    "stockQuantity": 635344,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 15,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "154b7860-23a2-4564-ad99-1745ab7122ef",
     "name": "Guayanan Waterclover",
     "price": 29000,
     "rating": 0.34,
-    "stockQuantity": 456487,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 18,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "8d4bf814-65d4-4df4-84cc-68911d925fdf",
     "name": "Emory's Acacia",
     "price": 32000,
     "rating": 1.79,
-    "stockQuantity": 638956,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 21,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   },
   {
     "productId": "a52bf1bd-3d35-4cd2-849a-354e3952e2d2",
     "name": "American Century Plant",
     "price": 45000,
     "rating": 3.66,
-    "stockQuantity": 248630,
-    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2"
+    "stockQuantity": 24,
+    "categoryId": "a52bf1br-3d35-4cd2-849b-354e3952e2d2",
+    "supplier": "Yen Supermarket"
   }
 ]
