@@ -30,10 +30,6 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/products", productRoutes); // http://localhost:8000/products
 app.use("/users", userRoutes); // http://localhost:8000/users
 
-app.use("/test", (req, res) => {
-  res.send("Hello World!");
-});
-
 /* SERVER */
 const port = Number(process.env.PORT) || 3001;
 app.listen(port, "0.0.0.0", () => {

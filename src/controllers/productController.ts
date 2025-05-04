@@ -4,6 +4,7 @@ import { PrismaClient } from "@prisma/client";
 import multer from "multer";
 import path from "path";
 import fs from "fs";
+import { notifyLowStock } from "./notification";
 
 const prisma = new PrismaClient();
 
@@ -128,6 +129,9 @@ export const createProduct = async (
       },
     });
 
+    // Notify about low stocks
+    await notifyLowStock();
+
     res.status(201).json(product);
   } catch (error) {
     console.error("Error creating product:", error);
@@ -195,6 +199,9 @@ export const updateProduct = async (
       },
     });
 
+    // Notify about low stocks
+    await notifyLowStock();
+
     res.json(updatedProduct);
   } catch (error) {
     console.error("Error updating product:", error);
@@ -259,4 +266,9 @@ export const getCategories = async (
   } catch (error) {
     res.status(500).json({ message: "Error retrieving categories" });
   }
+};
+
+export const lowStocksNotification = async (req: Request, res: Response) => {
+  await notifyLowStock();
+  res.json({ message: "Email sent to all super admins about low stocks." });
 };

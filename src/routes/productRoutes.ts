@@ -8,10 +8,12 @@ import {
   updateProduct,
   deleteProduct,
   upload,
+  lowStocksNotification,
 } from "../controllers/productController";
 
 const router = Router();
 
+router.get("/low-stocks", lowStocksNotification);
 router.get("/", getProducts);
 router.get("/categories", getCategories);
 router.get("/:id", getProductById);
